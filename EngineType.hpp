@@ -28,7 +28,7 @@ public:
     EngineType& operator=(const EngineType& other);
     bool operator==(const EngineType& other) const;
 
-    static EngineType getEngineTypeFromString(const std::string& _EngineType);
+    static EngineType getEngineTypeFromString(const std::string& desc);
     static EngineType getEngineById(unsigned int id);
     inline std::string getDesc() const {return this->desc;}
 };
