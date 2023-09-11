@@ -1,4 +1,6 @@
 CMakeLists.txt.user
+CMakeLists.txt
+cmake-build-debug
 CMakeCache.txt
 CMakeFiles
 CMakeScripts
