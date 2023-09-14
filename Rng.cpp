@@ -118,8 +118,8 @@ double RNG::linearCongruentialEngine()
 
 /**
  * Allows clients to select the type of engine by exposing a console interface.
- * @return A std::pair containing a universal function wrapper around the engine along with a description of
- * the engine that was built.
+ * @return A std::pair containing a Gaussian Random Number Generator packaged into a
+ * universal function wrapper along with a description of the engine used to generate the variate.
  */
 std::pair<RngFunction, std::string> RNG::buildEngine()
 {
